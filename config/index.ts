@@ -8,7 +8,7 @@ export const APP_INFO: AppInfo = {
   description: '根据输入生成剧本杀的剧本',
   copyright: '企业AI服务组',
   privacy_policy: '',
-  default_language: 'zh-Hans',
+  default_language: 'en',
 }
 
 export const API_PREFIX = '/api'
@@ -16,6 +16,3 @@ export const API_PREFIX = '/api'
 export const LOCALE_COOKIE_NAME = 'locale'
 
 export const DEFAULT_VALUE_MAX_LEN = 48
-
-console.log('Languages:', languages);
-console.log('Matched Locale:', matchedLocale);
